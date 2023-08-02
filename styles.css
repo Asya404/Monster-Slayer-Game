@@ -3,7 +3,7 @@
 }
 
 html {
-  font-family: 'Handjet', cursive;
+  font-family: "Handjet", cursive;
 }
 
 body {
@@ -122,17 +122,21 @@ button:disabled {
 }
 
 .log--player {
-  color: #7700ff;
+  color: #5efbff;
+  margin-right: 5px;
 }
 
 .log--monster {
-  color: #da8d00;
+  color: #ff8e00;
+  margin-right: 5px;
 }
 
-.log--damage {
+.log--attack {
   color: red;
+  margin-right: 5px;
 }
 
 .log--heal {
   color: green;
+  margin-right: 5px;
 }
