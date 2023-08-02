@@ -29,7 +29,7 @@
         </div>
       </section>
 
-      <section id="controls" v-if="playerHealth != 0">
+      <section id="controls" v-if="playerHealth != 0 && monsterHealth != 0">
         <button @click="attackMonster">ATTACK</button>
         <button :disabled="mayUseSpecialAttack" @click="specialAttackMonster">SPECIAL ATTACK</button>
         <button @click="healPlayer">HEAL</button>
